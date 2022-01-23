@@ -1,3 +1,3 @@
-## How to use it?;
+## How to use it?;.
 
 ![](readme.gif)
