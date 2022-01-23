@@ -40,7 +40,7 @@ jobs:
         run: npx bohr deploy
         env:
           DEPLOY_PATH: './public'
-          SITE_NAME: 'app-template.bohr.io'
+          SITE_NAME: '1app-template.bohr.io'
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
@@ -51,5 +51,5 @@ jobs:
           KV_SITES_ID: ${{ secrets.KV_SITES_ID }}
           KV_ASSETS_ID: ${{ secrets.KV_ASSETS_ID }}
           BRANCH: 'main'
-          OWNER: 'bohr-io'
-          REPOSITORY: 'app-template'
+          OWNER: 'nachtigall-test'
+          REPOSITORY: '1app-template'
